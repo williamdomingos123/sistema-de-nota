@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gerenciador de notas</title>
+    <style>
+   .tchiloca{
+width: 200px;
+animation:girar 4s
+linear infinite;
+border-radius: 50%;
+   }
+   @keyframes girar {
+    from {transform: rotate;
+    (0deg);}
+    to {transform: rotate(360deg);}
+    
+   }
+body{
+background-color: black;
+margin: 0;
+font-family: arial;
+}
+.container{
+    display: flex;
+}
+.barra{
+    width: 300px;
+    height: 100vh;
+}
+.barra.esq{
+    background: red;
+     border-left: 2px solid red;
+}
+.barra.dir{
+    background: white;
+    border-left: 2px solid white;
+} 
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: white; 
+}p{
+    color: red;
+}h2{
+    color: white;
+} a{
+    color: aqua;
+} 
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="barra esq"></div>
+        
+    
+    <div class="conteudo"
+        style="text-align:center;margin:50px;">
+        <img src="1772051256027~2.jpg" class="tchiloca" alt="girando">
+    
+    <h1>BEM VINDO</h1>
+    <P>..................................................</P>
+    <H2>COMPLEXO ESCOLAR TCHILOCA</H2>
+                <a href="#">SUA NOTA</a>
+
+
+    <p>SE INFORME DO ESTADO DA SUA NOTA AQUE </p>
+    </div>
+    <div class="barra dir"></div>
+</div>
+        
+
+</body>
+</html>
